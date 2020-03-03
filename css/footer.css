@@ -1,0 +1,86 @@
+.footer1 .firstCol {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer1 .firstCol .links {
+    margin: 30px auto;
+}
+
+.footer1 .firstCol .links i {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary-color);
+    transition: all 0.2s ease;
+}
+
+.footer1 .firstCol .links i:hover {
+    color: var(--secondary-color);
+}
+
+.footer1 .footerLogo {
+    margin: 0 auto;
+}
+
+.footer1 .contactInfo i {
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+.footer1 .contactInfo > div {
+    border-bottom: 1px solid var(--secondary-color);
+    padding: 10px 0;
+}
+
+.footer1 .contactInfo > div:first-of-type {
+    padding-top: 10px;
+}
+.footer1 .contactInfo > div:last-of-type {
+    border-bottom: 0;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
+.footer1 .footerAddress,
+.footer1 .footerPhone,
+.footer1 .footerEmail {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.footer1 .footerEmail:hover {
+    color: var(--primary-color-light);
+}
+
+.footer1 .mapDiv iframe {
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.f1-bottom-bar {
+    background-color: var(--primary-color);
+}
+
+.f1-bottom-bar .rightsReserved {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.f1-bottom-bar .rightsReserved span {
+    color: var(--secondary-color);
+}
+
+.f1-bottom-bar .poweredByMist {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.f1-bottom-bar .poweredByMist img {
+    margin-top: -8px;
+    margin-left: 3px;
+}

@@ -1,0 +1,61 @@
+.theme-cards {
+    padding: 10px 0;
+}
+
+.theme-cards .title {
+    font-size: 40px;
+    margin-top: 30px;
+    width: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.theme-cards .subtitle {
+    color: #585858;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.theme-cards .card {
+    height: 300px;
+}
+
+.theme-cards .card-body {
+    height: 300px;
+    display: flex;
+    flex-flow: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+.theme-cards .card .category-date {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--secondary-color);
+    margin-bottom: 0;
+}
+
+.theme-cards .card .bulletinTitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-color-light);
+    transition: all 0.2s ease-out;
+}
+
+.theme-cards .card .bulletinTitle:hover {
+    color: var(--primary-color-hover);
+}
+
+.theme-cards .card .bulletinBody {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--primary-color-hover);
+}
+
+.theme-cards .card .btn {
+    color: #fff;
+    font-weight: 500;
+}

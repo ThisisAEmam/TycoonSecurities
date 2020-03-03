@@ -1,0 +1,16 @@
+.feature1 .title {
+    font-size: 40px;
+    margin-top: 50px;
+    width: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.feature1 .wrap-feature1-box img {
+    height: 70px;
+}
+
+.feature1 .wrap-feature1-box .card .card-body {
+    padding: 5px 15px;
+}

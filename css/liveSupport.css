@@ -1,0 +1,33 @@
+.liveSupportBtn {
+    position: fixed;
+    top: 170px;
+    right: 0;
+    padding: 10px 15px;
+    z-index: 1000;
+    background-color: var(--secondary-color-light); 
+    border-color: var(--secondary-color-light); 
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    opacity: 0.5;
+  }
+  
+  .liveSupportBtn img{
+    width: 30px;
+    filter: grayscale(1);
+  }
+  
+  .liveSupportBtn:hover {
+    opacity: 1;
+    background-color: var(--secondary-color); 
+    border-color: var(--secondary-color); 
+  }
+  
+  .liveSupportBtn:hover img {
+    filter: grayscale(0);
+  }
+
+  @media (max-width: 768px) {
+    .liveSupportBtn {
+      opacity: 0.3;
+    }
+  }

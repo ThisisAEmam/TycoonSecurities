@@ -1,0 +1,32 @@
+.h4-navbar .navbar-brand img {
+    height: 70px;
+    width: 170px;
+}
+
+.topbar.fixed-header .h4-navbar {
+    height: 110px;
+}
+
+.topbar.fixed-header .navbar .navbar-brand img {
+    height: 70px;
+}
+
+.Demo-btn .btn {
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.h4-navbar .icon-Mail,
+.h4-navbar .icon-Phone-2,
+.h4-navbar small {
+    color: var(--primary-color);
+    background: -webkit-linear-gradient(legacy-direction(to bottom right), var(--primary-color) 0%, var(--primary-color-light) 100%);
+    background: -webkit-gradient(linear, left top, right top, from(var(--primary-color)), to(var(--primary-color-light)));
+    background: -webkit-linear-gradient(top left, var(--primary-color) 0%, var(--primary-color-light) 100%);
+    background: -o-linear-gradient(top left, var(--primary-color) 0%, var(--primary-color-light) 100%);
+    background: linear-gradient(to bottom right, var(--primary-color) 0%, var(--primary-color-light) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
